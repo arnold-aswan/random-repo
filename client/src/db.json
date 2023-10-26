@@ -1,0 +1,101 @@
+{
+  "Users": [
+    {
+      "user_id": 1,
+      "username": "john_doe",
+      "password": "password123",
+      "email": "john@example.com"
+    },
+    {
+      "user_id": 2,
+      "username": "jane_doe",
+      "password": "securepass",
+      "email": "jane@example.com"
+    }
+  ],
+  "Projects": [
+    {
+      "project_id": 1,
+      "project_name": "Project A",
+      "project_description": "Description for Project A",
+      "project_owner_id": 1,
+      "project_memebers": "john_doe,jane_doe",
+      "members_id": 1,
+      "github_link": "https://github.com/projectA",
+      "owner_id": 1,
+      "class_id": 1,
+      "class_stack": "Android"
+    },
+    {
+      "project_id": 2,
+      "project_name": "Project B",
+      "project_description": "Description for Project B",
+      "project_owner_id": 2,
+      "project_memebers": "jane_doe",
+      "members_id": 2,
+      "github_link": "https://github.com/projectB",
+      "owner_id": 2,
+      "class_id": 2
+    },
+    {
+      "project_id": 3,
+      "project_name": "Project C",
+      "project_description": "Description for Project C",
+      "project_owner_id": 1,
+      "project_memebers": "john_doe,jane_doe",
+      "members_id": 1,
+      "github_link": "https://github.com/projectA",
+      "owner_id": 1,
+      "class_id": 1,
+      "class_stack": "Fullstack"
+    }
+  ],
+  "Project_members": [
+    {
+      "members_id": 1,
+      "project_id": 1,
+      "user_id": 1,
+      "admin_id": 1
+    },
+    {
+      "members_id": 2,
+      "project_id": 1,
+      "user_id": 2,
+      "admin_id": 1
+    },
+    {
+      "members_id": 3,
+      "project_id": 2,
+      "user_id": 2,
+      "admin_id": 2
+    }
+  ],
+  "Admins": [
+    {
+      "admin_id": 1,
+      "admin_name": "Admin A",
+      "admin_email": "adminA@example.com",
+      "password": "adminpass123"
+    },
+    {
+      "admin_id": 2,
+      "admin_name": "Admin B",
+      "admin_email": "adminB@example.com",
+      "password": "adminpass456"
+    }
+  ],
+  "class": [
+    {
+      "class_id": 1,
+      "class_name": "Class A",
+      "class_stack": "Android",
+      "class_description": "Description for Class A"
+    },
+    {
+      "class_id": 2,
+      "class_name": "Class B",
+      "class_stack": "Fullstack",
+      "class_description": "Description for Class B"
+    }
+  ]
+}
